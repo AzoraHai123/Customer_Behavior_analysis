@@ -10,11 +10,8 @@ Dataset
 DetailInfoFilecustomer_shopping_behavior.csvRows~3,900 recordsKey Columnscustomer_id, age, gender, category, item_purchased, purchase_amount, review_rating, subscription_status, discount_applied, frequency_of_purchases
 
 Tools Used
-ToolPurposePython (pandas, sqlalchemy, pymysql)Data loading, EDA, cleaning, MySQL exportMySQL / MySQL WorkbenchDatabase storage, SQL queriesPower BI DesktopInteractive dashboard<img width="1883" height="907" alt="Screenshot 2026-05-12 185808" src="https://github.com/user-attachments/assets/2b2a63b2-a626-43a8-bd9c-d169fff65848" />
-<img width="1883" height="907" alt="Screenshot 2026-05-12 185808" src="https://github.com/user-attachments/assets/5ef7e39d-75ee-4c31-8edf-06ce6018b227" />
+ToolPurposePython (pandas, sqlalchemy, pymysql)Data loading, EDA, cleaning, MySQL exportMySQL / MySQL WorkbenchDatabase storage, SQL queriesPower BI DesktopInteractive dashboard
 
-
-Steps
 1. Data Loading
 
 Loaded CSV using pd.read_csv()
@@ -59,4 +56,4 @@ Imported cleaned data into Power BI
 Created DAX measures: Total Revenue, Avg Spend, Total Customers, Discount Rate
 Built visuals: bar charts, pie charts, line charts, slicers
 Designed interactive dashboard with filters by gender, category, age group
-
+<img width="1883" height="907" alt="Screenshot 2026-05-12 185808" src="https://github.com/user-attachments/assets/2b2a63b2-a626-43a8-bd9c-d169fff65848" />
